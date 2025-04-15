@@ -6,7 +6,7 @@ leaves = {}
 def add_employee():
     emp_id = input("Enter Employee ID: ")
     name = input("Enter Name: ")
-    position = input("Enter Position: ")
+    position = input("Enter Position )
     salary = float(input("Enter Monthly Salary: "))
     employees[emp_id] = {
         "name": name,
